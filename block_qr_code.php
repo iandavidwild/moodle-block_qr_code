@@ -185,7 +185,7 @@ class block_qr_code extends block_base {
 
         $attributes = parent::html_attributes();
 
-        if (!empty($CFG->block_html_allowcssclasses)) {
+        if (!empty($CFG->block_qr_code_allowcssclasses)) {
             if (!empty($this->config->classes)) {
                 $attributes['class'] .= ' '.$this->config->classes;
             }
